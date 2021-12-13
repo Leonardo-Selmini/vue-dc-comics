@@ -2,6 +2,8 @@
   <div id="app">
     <body>
       <Header/>
+      <Main/>
+      <SectionStore/>
     </body>
   </div>
 </template>
@@ -10,12 +12,16 @@
 <script>
 //--import--
 import Header from './components/Header.vue';
+import Main from './components/Main.vue';
+import SectionStore from './components/SectionStore.vue';
 
 //--export--
 export default {
   name: 'App',
   components: {
     Header,
+    Main,
+    SectionStore
   }
 }
 </script>
@@ -33,6 +39,7 @@ export default {
 
 .flex-row {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
 }
 

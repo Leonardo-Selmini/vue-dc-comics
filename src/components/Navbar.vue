@@ -76,9 +76,10 @@ export default {
         color: $grey;
         text-transform: uppercase;
         text-decoration: none;
-        padding: calc((7rem - .9375rem) / 2) 0;
+        padding: calc((7rem - 2rem) / 2) 0;
         border-top: 5px solid white;
         border-bottom: 5px solid white;
+        transition : border 500ms ease-out;
 
         &:hover {
           color: $lightBlue;
@@ -87,6 +88,5 @@ export default {
       }
     }
   }
-
 
 </style>
