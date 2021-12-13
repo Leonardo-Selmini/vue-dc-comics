@@ -4,6 +4,7 @@
       <Header/>
       <Main/>
       <SectionStore/>
+      <Footer/>
     </body>
   </div>
 </template>
@@ -14,6 +15,7 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 import SectionStore from './components/SectionStore.vue';
+import Footer from './components/Footer.vue'
 
 //--export--
 export default {
@@ -21,14 +23,14 @@ export default {
   components: {
     Header,
     Main,
-    SectionStore
+    SectionStore,
+    Footer
   }
 }
 </script>
 
 //00000000- STYLE -0000000
 <style lang="scss">
-@import './assets/styles/variables.scss';
 
 //--commons--
 * {
