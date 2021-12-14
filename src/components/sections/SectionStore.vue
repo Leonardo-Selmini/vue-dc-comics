@@ -2,23 +2,23 @@
   <section class="flex-row">
     <div class="width-80 flex-row">
       <div class="flex-row">
-        <img src="./../assets/img/buy-comics-digital-comics.png" alt="digital comics icon">
+        <img src="./../../assets/img/buy-comics-digital-comics.png" alt="digital comics icon">
         <span>digital comics</span>
       </div>
       <div class="flex-row">
-        <img src="./../assets/img/buy-comics-merchandise.png" alt="dc merchandise icon">
+        <img src="./../../assets/img/buy-comics-merchandise.png" alt="dc merchandise icon">
         <span>dc merchandise</span>
       </div>
       <div class="flex-row">
-        <img src="./../assets/img/buy-comics-subscriptions.png" alt="subsciption icon">
+        <img src="./../../assets/img/buy-comics-subscriptions.png" alt="subsciption icon">
         <span>subscriptions</span>
       </div>
       <div class="flex-row">
-        <img src="./../assets/img/buy-comics-shop-locator.png" alt="shop locator icon">
+        <img src="./../../assets/img/buy-comics-shop-locator.png" alt="shop locator icon">
         <span>shop locator</span>
       </div>
       <div class="flex-row">
-        <img src="./../assets/img/buy-dc-power-visa.svg" alt="dc power visa icon">
+        <img src="./../../assets/img/buy-dc-power-visa.svg" alt="dc power visa icon">
         <span>dc power visa</span>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './../assets/styles/variables.scss';
+@import './../../assets/styles/variables.scss';
 
   section {
     height: 8rem;

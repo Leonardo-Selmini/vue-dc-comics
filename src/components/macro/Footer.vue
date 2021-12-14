@@ -7,8 +7,8 @@
 
 <script>
 // --import--
-import SectionLinks from './SectionLinks.vue';
-import SectionSocial from './SectionSocial.vue';
+import SectionLinks from '../sections/SectionLinks.vue';
+import SectionSocial from '../sections/SectionSocial.vue';
 
 // --export--
 export default {

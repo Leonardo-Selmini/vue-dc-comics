@@ -1,6 +1,6 @@
 <template>
   <section>
-    <img src="./../assets/img/jumbotron.jpg" alt="jumbo img">
+    <img src="./../../assets/img/jumbotron.jpg" alt="jumbo img">
   </section>
 </template>
 

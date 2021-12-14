@@ -61,7 +61,7 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-@import './../assets/styles/variables.scss';
+@import './../../assets/styles/variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
 
   ul {

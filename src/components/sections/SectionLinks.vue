@@ -54,7 +54,7 @@
           </ul>
         </div>
       </div>
-      <img src="./../assets/img/dc-logo-bg.png" alt="dc logo footer">
+      <img src="./../../assets/img/dc-logo-bg.png" alt="dc logo footer">
     </div>
   </section>
 </template>
@@ -66,13 +66,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './../assets/styles/variables.scss';
+@import './../../assets/styles/variables.scss';
 
   section {
     position: relative;
     height: 25rem;
     font-size: .8rem;
-    background-image: url("./../assets/img/footer-bg.jpg");
+    background-image: url("./../../assets/img/footer-bg.jpg");
     color: $lightGrey;
     overflow-y: hidden;
 

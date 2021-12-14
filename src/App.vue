@@ -12,10 +12,10 @@
 //00000000- SCRIPT -00000000
 <script>
 //--import--
-import Header from './components/Header.vue';
-import Main from './components/Main.vue';
-import SectionStore from './components/SectionStore.vue';
-import Footer from './components/Footer.vue'
+import Header from './components/macro/Header.vue';
+import Main from './components/macro/Main.vue';
+import SectionStore from './components/sections/SectionStore.vue';
+import Footer from './components/macro/Footer.vue'
 
 //--export--
 export default {

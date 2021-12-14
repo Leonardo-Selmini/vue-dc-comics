@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="space-between width-80">
-      <img src="../assets/img/dc-logo.png" alt="DC Logo">
+      <img src="../../assets/img/dc-logo.png" alt="DC Logo">
       <Navbar/>
     </div>
   </header>
@@ -10,7 +10,7 @@
 // 0000000- SCRIPT -00000000
 <script>
 // --import--
-import Navbar from './../components/Navbar.vue'
+import Navbar from '../sections/Navbar.vue'
 //-- export --
 export default {
   name: 'Header',
