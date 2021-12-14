@@ -31,7 +31,6 @@ export default {
 
 //00000000- STYLE -0000000
 <style lang="scss">
-
 //--commons--
 * {
   margin: 0;
@@ -55,5 +54,4 @@ export default {
   width: 80%;
   margin: 0 auto;
 }
-
 </style>

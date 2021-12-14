@@ -1,11 +1,17 @@
 <template>
   <main>
+    <SectionJumbo/>
   </main>
 </template>
 
 <script>
+import SectionJumbo from './SectionJumbo.vue';
+
 export default {
-  name: 'Main'
+  name: 'Main',
+  components: {
+    SectionJumbo,
+  },
 }
 </script>
 
@@ -13,7 +19,6 @@ export default {
 @import './../assets/styles/variables.scss';
 
   main {
-    height: 8rem;
     background-color: $black;
   }
 </style>
