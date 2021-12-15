@@ -3,7 +3,6 @@
     <body>
       <Header/>
       <Main/>
-      <SectionStore/>
       <Footer/>
     </body>
   </div>
@@ -14,7 +13,6 @@
 //--import--
 import Header from './components/macro/Header.vue';
 import Main from './components/macro/Main.vue';
-import SectionStore from './components/sections/SectionStore.vue';
 import Footer from './components/macro/Footer.vue'
 
 //--export--
@@ -23,7 +21,6 @@ export default {
   components: {
     Header,
     Main,
-    SectionStore,
     Footer
   }
 }

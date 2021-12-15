@@ -70,9 +70,9 @@ export default {
 
   section {
     position: relative;
-    height: 25rem;
     font-size: .8rem;
     background-image: url("./../../assets/img/footer-bg.jpg");
+    background-size: cover;
     color: $lightGrey;
     overflow-y: hidden;
 
@@ -80,7 +80,7 @@ export default {
       display: flex;
       
       .column {
-        padding: 1.6rem;
+        padding: 2rem 1.6rem;
 
         ul li {
           line-height: 1.6rem;

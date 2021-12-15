@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <SectionStore/>
     <SectionLinks/>
     <SectionSocial/>
   </footer>
@@ -7,6 +8,7 @@
 
 <script>
 // --import--
+import SectionStore from '../sections/SectionStore.vue'
 import SectionLinks from '../sections/SectionLinks.vue';
 import SectionSocial from '../sections/SectionSocial.vue';
 
@@ -14,6 +16,7 @@ import SectionSocial from '../sections/SectionSocial.vue';
 export default {
   name: 'Footer',
   components: {
+    SectionStore,
     SectionLinks,
     SectionSocial
   }
